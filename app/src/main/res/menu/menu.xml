@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/some_id"
+        android:title="Title 1"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/some_id_2"
+        android:title="Title 1"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/group_id"
+        android:title="Group">
+        <menu android:id="@+id/group_menu">
+            <group android:checkableBehavior="single" android:id="@+id/group">
+                <item
+
+                    android:id="@+id/group_item_1"
+                    android:title="group_item_1"/>
+
+                <item
+                    android:visible="false"
+                    android:id="@+id/group_item_2"
+                    android:title="group_item_2"/>
+
+                <item
+                    android:visible="false"
+                    android:id="@+id/group_item_3"
+                    android:title="group_item_3"/>
+            </group>
+        </menu>
+    </item>
+</menu>
