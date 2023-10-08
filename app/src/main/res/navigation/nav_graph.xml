@@ -8,6 +8,7 @@
     <fragment
         android:id="@+id/contentFragment"
         android:name="com.example.carcrimesplus.ContentFragment"
-        android:label="fragment_content"
-        tools:layout="@layout/fragment_content" />
+        android:label=""
+        tools:layout="@layout/fragment_content" >
+    </fragment>
 </navigation>

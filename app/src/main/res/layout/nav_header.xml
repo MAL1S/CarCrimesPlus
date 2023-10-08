@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_anim_list"
+    android:id="@+id/header"
+    android:orientation="vertical">
 
-    <View
-        android:background="@color/black"
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/img_mvd" />
+
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="100dp"/>
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:text="Незаконный оборот оружия с использованием информационно-телекоммуникационных сетей, в том числе сети «Интернет» (учебный курс информационно-просветительского характера)"
+        android:textColor="@color/white" />
 
-</FrameLayout>
+</LinearLayout>
